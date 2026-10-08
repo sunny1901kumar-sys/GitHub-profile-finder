@@ -1,0 +1,119 @@
+* {
+    margin: 0; /* margin: - outside space*/
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    min-height: 100vh;
+    padding: 30px; /* padding: inside space*/
+}h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+#username {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchBtn {
+    padding: 10px 15px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search-box {
+    text-align: center;
+}
+#profile {
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+#avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+#name {
+    margin-bottom: 8px;
+}
+
+#login {
+    margin-bottom: 15px;
+}
+#bio {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+#followers,
+#following,
+#repos {
+    margin-bottom: 10px;
+}
+
+#reposLink,
+#profileLink {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #24292e;
+    color: white;
+}
+#reposLink:hover,
+#profileLink:hover {
+    opacity: 0.8;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: white;
+}
+
+#username:focus {
+    outline: none;
+    border: 1px solid #555;
+}
+
+#message {
+    text-align: center;
+    margin-top: 20px;
+    color: #ccc;
+}
+#searchBtn:hover {
+    background-color: #333;
+    color: white;
+}
+
+/*  Mobile responsive*/
+
+@media (max-width: 500px) {
+    body {
+        padding: 20px;
+    }
+
+    #username {
+        width: 100%;
+    }
+
+    #searchBtn {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    #profile {
+        width: 100%;
+    }
+}
