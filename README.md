@@ -5,8 +5,7 @@ A simple **GitHub Profile Finder** built using **HTML, CSS, and JavaScript**. It
 🌐 [**Live Demo**](https://sunny1901kumar-sys.github.io/GitHub-profile-finder/)
 
 ## 📸 Screenshot
-
-![GitHub Profile Finder Screenshot](screenshot.png)
+![GitHub Profile Finder Screenshot](Screenshot.png)
 
 ## ✨ Features
 
